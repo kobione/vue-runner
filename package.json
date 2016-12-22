@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "vue-runner",
+  "scripts": {
+    "dev": "vbuild --dev",
+    "build": "vbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "description": "--- # Getting Started ---",
+  "version": "1.0.0",
+  "main": "src/components/App.vue",
+  "keywords": [
+    "Vue",
+    "Vue2",
+    "Vuejs",
+    "starter",
+    "boilerplate",
+    "beginners",
+    "single-page-component",
+    "vue-webpack",
+    "auto-reload"
+  ],
+  "author": "kobione",
+  "license": "UNLICENCED"
+}
