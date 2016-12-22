@@ -53,7 +53,13 @@
 > $ `cd vue-runner/`
 > <br>
 >
-> **Run this bash script to get local copies of all 3 branches:**
+> **Note that, at first, you only have 1 branch:**
+> 
+> $ `git branch`
+> <br>
+> Should see only 'master' branch
+>
+> **Run this bash script to get local copies of 3 *new* branches:**
 > <br>
 > *(master branch + 3 more branches)*
 > 
@@ -66,20 +72,18 @@
 > 
 > $ `git branch`
 > <br>
+> Should see master branch + 3 more branches.
 
-## **Use one of Vue-Runner's 3 starter branches:**
-
-> **Select a branch:**
-> 
->  $ `git checkout <select-a-branch>`
->   <br>
->   **NOTE:** See ** *description of branches below*.**  All branches easy for beginners.
->   <br>
+<br>
 
 
-## **Install vbuild:**
-**NOTE:** Our project it dependent on vbuild.  Must install vbuild for our app to run.
->
+## Install Dependencies:
+**NOTE:** Our project it dependent on vbuild, and npm packages.
+<br>Must install vbuild and run `npm install` for each branch to run properly.
+<br>
+
+### **Install vbuild:**
+
 > **Use npm to Install vbuild Globally:**
 > 
 >  $ `npm i -g vbuild`
@@ -89,18 +93,31 @@
 > For more information, and *alternative install instructions* check out: `https://github.com/egoist/vbuild`
 > <br>
 
+### **Install npm packages:**
+> 
+>  $ `npm install`
+> <br>
+> **Note:** May be package duplication via vbuild and npm packages. This is known. 
 
+---
+# Select One of Vue-Runner's 3 Branches:
+---
 
 ## **Start our Application:**
 
 >  $ `npm run dev`
 >
 >  **Launch your browser and go to:** [http://localhost:4000/](http://localhost:4000/)
+<br>
 
+## **Use one of Vue-Runner's 3 starter branches:**
 
----
-# Select One of Vue-Runner's 3 Branches:
----
+> **Select a branch:**
+> 
+>  $ `git checkout <select-a-branch>`
+>   <br>
+>   **NOTE:** See ** *description of branches below*.**  All branches easy for beginners.
+>   <br>
 
 ## Branch names, plus branch descriptions and instructions:
 
@@ -115,9 +132,7 @@
 <br>
 
 > ### Branch2: ** *vuejs-autoreload* **
-> 
-> ** *IMPORTANT*: ** Must type $ `npm install` for *vuejs-autoreload* branch to run.
-> 
+>  
 >   - Two files: `index.html` and `src/main.js` plus Webpack
 >     <br>
 >   - When you "save" in your editor, will automatically reload browser
