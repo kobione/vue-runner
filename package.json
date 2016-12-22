@@ -1,6 +1,26 @@
 {
-  "private": true,
+  "private": false,
   "name": "vue-runner",
+  "author": "kobione",
+  "description": "--- # vue-runner: Vuejs Complete Beginners Starter ---",
+  "version": "1.0.0",
+  "main": "src/components/App.vue",
+  "keywords": [
+    "Vue",
+    "Vue2",
+    "Vuejs",
+    "starter",
+    "boilerplate",
+    "beginners",
+    "single-page-component",
+    "vue-webpack",
+    "auto-reload"
+  ],  
+  "license": "UNLICENCED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kobione/vue-runner"
+  },    
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -75,25 +95,5 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "TBD"
-  },
-  "description": "--- # Getting Started ---",
-  "version": "1.0.0",
-  "main": "main.js",
-  "keywords": [
-    "Vue",
-    "Vue2",
-    "Vuejs",
-    "starter",
-    "boilerplate",
-    "beginners",
-    "single-page-component",
-    "vue-webpack",
-    "auto-reload"
-  ],
-  "author": "kobione",
-  "license": "UNLICENCED"
+  }
 }
