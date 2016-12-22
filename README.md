@@ -102,30 +102,38 @@
 # Select One of Vue-Runner's 3 Branches:
 ---
 
-## Branch names plus descriptions:
-> 
-> Branch1: **simple-vuejs**
+## Branch names, plus branch descriptions and instructions:
+
+> ### Branch1: ** *simple-vuejs* **
 >
->   - Only two files: *index.html* and *scripts.js*
+>   - Only two files: `index.html` and `scripts.js`
 >     <br>
->   **NOTE:** No Webpack.
+>   - open file: `index.html` in your browser.
+>     <br>
+>   **Note:** No Webpack, will need to manually refresh browser after each "save" in editor.
 > 
-> Branch2: **vuejs-autoreload**
->
->   - Two files: *index.html* and *scripts.js* plus Webpack
+<br>
+
+> ### Branch2: ** *vuejs-autoreload* **
+> 
+> ** *IMPORTANT*: ** Must type $ `npm install` for *vuejs-autoreload* branch to run.
+> 
+>   - Two files: `index.html` and `src/main.js` plus Webpack
 >     <br>
 >   - When you "save" in your editor, will automatically reload browser
 >     <br>
->   **NOTE:** The Webpack build tool auto-reloads your page, and is used to do much more.
+>   **Note:** The Webpack build tool auto-reloads your page, and is used to do much more.
 > 
-> Branch3: **single-file-component**
+<br>
+
+> ### Branch3: ** *single-file-component* **
 > 
 >   - Use in Production: HTML, CSS, and JavaScript combined in one .vue
 >     <br>
 >     ** *For example*: ** The HTML, CSS, and JavaScript in `App.vue` bundles together into one component
 >     <br>
 >     <br>
->     **NOTE:** Use single file "components" to build components out of other, smaller components
+>     **Note:** Use single file "components" to build components out of other, smaller components
 >     <br> 
 >   - When you "save" in your editor, will automatically reload browser (thanks to Webpack)
 >     <br>
