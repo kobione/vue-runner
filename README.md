@@ -43,7 +43,7 @@
 
 > **Clone the repo:**
 > 
-> $ `git clone INSERT_URL`
+> $ `git clone git@github.com:kobione/vue-runner.git`
 >
 > ** *Note* **: clones only 'master' branch, by default.
 > <br>
