@@ -1,0 +1,27 @@
+{
+  "private": false,
+  "name": "vue-runner",
+  "author": "kobione",
+  "description": "--- # vue-runner: Vuejs Complete Beginners Starter ---",
+  "version": "1.0.0",
+  "main": "index.html",
+  "keywords": [
+    "Vue",
+    "Vue2",
+    "Vuejs",
+    "starter",
+    "boilerplate",
+    "beginners",
+    "single-page-component",
+    "vue-webpack",
+    "auto-reload"
+  ],  
+  "license": "UNLICENCED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kobione/vue-runner"
+  },    
+  "scripts": {
+    "dev": "python -m SimpleHTTPServer 4000"
+  }
+}
