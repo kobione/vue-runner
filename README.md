@@ -105,7 +105,12 @@
 
 ## **Start our Application:**
 
+> For any of our branches, you can run:
+> 
 >  $ `npm run dev`
+> <br>
+> ** *Note:* ** Must stop & start server, if you switch branches.
+> <br>
 >
 >  **Launch your browser and go to:** [http://localhost:4000/](http://localhost:4000/)
 <br>
@@ -125,8 +130,11 @@
 >
 >   - Only two files: `index.html` and `scripts.js`
 >     <br>
->   - open file: `index.html` in your browser.
+>   - $ `npm run dev` to launch local Python server
 >     <br>
+>          **-OR-** open file: `index.html` in your browser.
+>     <br>
+>
 >   **Note:** No Webpack, will need to manually refresh browser after each "save" in editor.
 > 
 <br>
