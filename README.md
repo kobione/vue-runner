@@ -110,16 +110,16 @@
 >  **Launch your browser and go to:** [http://localhost:4000/](http://localhost:4000/)
 <br>
 
+
 ## **Use one of Vue-Runner's 3 starter branches:**
 
-> **Select a branch:**
-> 
->  $ `git checkout <select-a-branch>`
->   <br>
->   **NOTE:** See ** *description of branches below*.**  All branches easy for beginners.
->   <br>
 
-## Branch names, plus branch descriptions and instructions:
+### `master` branch is currently *SAME* as Branch 3: `single-file-component`.
+
+- It is suggested that if you want to use any one branch moving forward, you **delete**  your copy of `master` branch and create a new "master" by branching off of whichever one of the 3 branches you prefer to use.
+<br>
+
+## Branch Names, plus Branch Descriptions and Instructions:
 
 > ### Branch1: ** *simple-vuejs* **
 >
