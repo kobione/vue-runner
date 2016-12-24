@@ -1,19 +1,28 @@
 ---
-# Getting Started
+# Vue.js Starter: vue-runner
+## Professional Vue.js Development Setup for Complete Beginners
 ---
 
 ## Node Ecosystem Install:
-(Skip if you have npm and Node already installed)
+** *Setup Explained:* ** Node is a server writing in the JavaScript language.  We will install Node locally on your machine (used by Webpack) to improve the development experience when you are building your Vue.js apps.
 <br>
 
-### Install Node and n ("n" is a node version manager):
+### Install Node and n:
+
+(Skip if you have Node and npm already installed)
 
 > $ `curl -L https://git.io/n-install | bash`
 >
 > For further information: `https://github.com/mklement0/n-install`
 
-### Use n to install a 'stable' version of Node:
-> $ `$ n stable`
+### *Optional*: Install and use n to install a "stable" version of Node:
+** *Note*: **  "n" is a "node version manager" which allows you to install different versions of Node (or use "nvm" an alternative to "n").  This is helpful to make sure you have the latest version, and can change versions of Node as needed while building apps in the JavaScript community.  If you have a recent version of Node, this will likely not be necessary to use our Vue.js `vue-runner` project.
+> 
+> **Install n:** (From: https://github.com/tj/n):
+> <br>
+> $ `npm install -g n`
+> <br>
+> $ `n stable`
 
 
 ### *Alternatively*, Install and Update Node, npm, and n manually:
@@ -43,7 +52,7 @@
 
 > **Clone the repo:**
 > 
-> $ `git clone git@github.com:kobione/vue-runner.git`
+> $ `git clone https://github.com/kobione/vue-runner.git`
 >
 > ** *Note* **: clones only 'master' branch, by default.
 > <br>
@@ -126,7 +135,7 @@
 
 ## Branch Names, plus Branch Descriptions and Instructions:
 
-> ### Branch1: ** *simple-vuejs* **
+> ### *Branch1:* 1-simple-vuejs
 >
 >   - Only two files: `index.html` and `scripts.js`
 >     <br>
@@ -139,7 +148,7 @@
 > 
 <br>
 
-> ### Branch2: ** *vuejs-autoreload* **
+> ### *Branch2:* 2-vuejs-autoreload
 >  
 >   - Two files: `index.html` and `src/main.js` plus Webpack
 >     <br>
@@ -149,7 +158,7 @@
 > 
 <br>
 
-> ### Branch3: ** *single-file-component* **
+> ### *Branch3:* 3-single-file-component
 > 
 >   - Use in Production: HTML, CSS, and JavaScript combined in one .vue
 >     <br>
