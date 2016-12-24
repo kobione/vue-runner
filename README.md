@@ -149,6 +149,9 @@
 <br>
 
 > ### *Branch2:* 2-vuejs-autoreload
+>
+>   ** *Errors??*: **  If you are trying to launch the server by typing $`npm run dev`
+>     and you see red errors in your terminal, try typing $ `npm install` again.
 >  
 >   - Two files: `index.html` and `src/main.js` plus Webpack
 >     <br>
